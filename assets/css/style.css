@@ -15,7 +15,9 @@ header{
     height: 60px;
     background-color:#ff6900 ;
     position: fixed;
+    z-index: 1;
 }
+
 
 div.hcontainer{
 display:flex;
@@ -66,7 +68,6 @@ section{
 }
 
 div.containerup{
-    border: 1px red solid ;
     height: 500px;
     width: 70%;
     margin-top: 50px;
@@ -77,22 +78,66 @@ div.containerup{
 div.containerdown{
    width: 70%;
    height: 50px; 
-   border: 1px solid red ;
    display: flex;
    justify-content: space-between;
 }
 
 
 div.card{
-    border: 1px red solid;
     height: 500px;
+    width: 32%;
+    position: relative;;
+}
+
+div.cuore{
+    background-color:white ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.boxinfo{
+display: flex;
+position: absolute;
+bottom: 7%;
+gap: 10px;
+}
+
+div.sconto{
+    background-color:#ff0000 ;
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.sostenibilità{
+    background-color:#008000;
+    height: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.scrittesotto{
+    height: 50px;
     width: 32%;
 }
 
-div.scrittesotto{
-    border: 1px red solid;
-    height: 50px;
-    width: 32%;
+span.fifty{
+color: white;
+
+}
+
+span.sost{
+color: white;
 }
 
 .card.a{
@@ -145,6 +190,41 @@ div.scrittesotto{
     background-image: url(../img/6.webp);
     background-size: cover;
 
+}
+
+div.downbar{
+    height: 100px;
+    margin-top: 50px;
+    background-color: #1a1a1a ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.info{
+    color: white;
+    height: 60px;
+    width: 30%;
+}
+
+div.social{
+    color: white;
+    height: 60px;
+    width: 10%;
+}
+
+span{
+    font-size: 10px;
+}
+
+p.trovaci{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+div.social svg{
+    fill: white;
+    padding-left: 2%;
 }
 
 
